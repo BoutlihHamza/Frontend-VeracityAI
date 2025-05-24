@@ -12,6 +12,7 @@ interface ResultCardProps {
 
 const ResultCard: React.FC<ResultCardProps> = ({ result }) => {
   const formattedDate = format(new Date(result.timestamp), 'PPpp');
+  console.log("RRRRRRRRRRRREsulfjl",result)
 
   return (
     <div className="space-y-6">
